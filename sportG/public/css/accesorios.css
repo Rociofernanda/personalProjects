@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*Encabezado*/
+.main-header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #aaf1f6;
+}
+
+.img-header {
+  width: 40%;
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+}
+
+.iniciosesion {
+  text-decoration: none;
+  color: #000000;
+  padding-right: 7px;
+}
+
+.carritoCompra {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*Cuerpo*/
+.titulo {
+  font-size: 2rem;
+  color: #1cb518;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.productos {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.img-producto {
+  width: 80%;
+}
+
+.accesorio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accesorio .contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Footer*/
+footer {
+  background-color: rgba(105, 189, 54, 0.8);
+}
+
+.grupo-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#animado {
+  width: 30%;
+}
+
+.box a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.red-social {
+  padding-bottom: 6px;
+}
+
+@media (min-width: 992px) {
+  .img-header {
+    width: 20%;
+    margin: 10px;
+  }
+
+  .usuarioYCarrito{
+    padding-right: 20px;
+  }
+
+  .productos {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .img-producto {
+    width: 40%;
+  }
+
+  .accesorio {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accesorio .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  footer .grupo-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box2 {
+    padding-right: 60px;
+  }
+
+  .box {
+    padding-right: 40px;
+  }
+
+  #animado {
+    padding-left: 30px;
+    width: 100%;
+  }
+}

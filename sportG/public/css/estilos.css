@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*Encabezado*/
+.main-header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #aaf1f6;
+}
+
+.img-header {
+  max-width: 212px;
+  width: 40%;
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+}
+
+.iniciosesion {
+  text-decoration: none;
+  color: #000000;
+  padding-right: 7px;
+}
+
+.carritoCompra {
+  text-decoration: none;
+  color: #000000;
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.carousel {
+  width: 100%;
+}
+
+/*Cuerpo*/
+/*tarjetas*/
+.receta {
+  color: #1cb518;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.tarjetas-main {
+  padding-left: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Footer*/
+footer {
+  background-color: rgba(105, 189, 54, 0.8);
+}
+
+.grupo-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#animado {
+  width: 30%;
+}
+
+.usuarioYCarrito {
+  padding-right: 20px;
+}
+
+.box a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.red-social {
+  padding-bottom: 6px;
+}
+
+@media (min-width: 992px) {
+  .img-header {
+    width: 20%;
+    margin: 10px;
+  }
+
+  .slider-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel {
+    width: 80%;
+  }
+
+  .tarjetas-main {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  footer .grupo-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box2 {
+    padding-right: 60px;
+  }
+
+  .box {
+    padding-right: 40px;
+  }
+
+  #animado {
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .receta {
+    margin: 15px 0px 15px 0px;
+    font-size: 2.5rem;
+  }
+}
